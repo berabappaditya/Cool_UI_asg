@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+#navbar{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    padding: 5px;
+    display: flex;
+}
+#navlogo{
+    height: 100%;
+    margin-left: 5px;
+ 
+}
+#navmenu{
+    height: 100%;
+    align-items: center;
+        position: Absolute;
+        top:10px;
+        right: 20px;
+
+    
+}
+#navmenu div{
+    height:4px;
+    margin:4px 0;
+    background-color:red;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+#one{
+    width:25px;
+}
+#two{
+    width:15px;
+}
+#three{
+    width:20px;
+}
+#navmenu:hover div{
+  width:25px;
+}
+
+#content {
+    min-height: 1000px;
+    background-image: linear-gradient(45deg, #FFEFF5, #ffe1ec);
+}
+
+.maintext{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+#anitxt{
+   
+     font-weight:bold;
+     
+}
+.ctrltxt{
+    font-weight:bold;
+    transition: 0.3s;
+}
+#btn1{
+border-radius:5px;
+border-color: #EC1E69;
+background-color: #EC1E69;
+color: #FFE6F0;
+padding:5px;
+margin:10px;
+transition:0.3s;
+}
+#btn1:hover{
+border-color: #EC1E69;
+background-color: #FFE6F0;
+color: #EC1E69;
+}
+#btn2{
+border-radius:5px;
+border-color: #EC1E69;
+background-color: #FFE6F0;
+color: #EC1E69;
+padding:5px;
+margin:10px;
+transition:0.3s;
+}
+#btn2:hover {
+
+border-color: #EC1E69;
+background-color: #EC1E69;
+color: #FFE6F0;
+
+}
+
+@media (max-width: 300px) {
+    #btns{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 440px) {
+    .ctrltxt{
+     font-size:20px;
+    }
+}
+
+.maintext img{
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    ;
+}
+/*text animation*/
+/* p {
+    border-right: solid 3px rgba(0, 255, 0, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    color: rgba(255, 0, 0, 0.7);
+    margin: 0 auto;
+} */
+
+
+
+
+
+/* Animation */
+/* p {
+    animation: animated-text 4s steps(29, end) 1s 1 normal both,
+        animated-cursor 600ms steps(29, end) infinite;
+}
+
+/* text animation */
+
+/* @keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 472px;
+    }
+} */
+
+/* cursor animations */
+
+/* @keyframes animated-cursor {
+    from {
+        border-right-color: rgba(255, 0, 0, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}    */
