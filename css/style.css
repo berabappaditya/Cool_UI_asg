@@ -23,7 +23,7 @@
 #navmenu div{
     height:4px;
     margin:4px 0;
-    background-color:red;
+    background-color:#EC1E69;
     border-radius: 25px;
     transition: 0.3s;
 }
